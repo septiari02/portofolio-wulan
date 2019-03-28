@@ -1,0 +1,149 @@
+body{
+
+	background-color: #ffcccc;
+	margin: 0;
+	font-family:Helvetica;
+	line-height: 30px;
+
+}
+.container{
+
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+	animation: fadeIn 2s; 
+}
+
+.table-container{
+	width:100%;
+}
+
+.title{
+
+	background-color:#996666;
+	color: white;
+	display:inline-block;
+	padding: 10px 20px;
+	margin: 0px;
+	border-bottom-right-radius: 5px;
+	margin-bottom: 15px;
+	font-size: 25px;
+	min-width: 300px;
+	text-align: center;
+}
+
+hr{
+	margin:0px;
+	background-color:#996666;
+	border: solid 1px ;
+}
+.profile{
+	width: 50%;
+}
+
+.profile img{
+	width: 200px;
+	float: left;
+	margin-right: 15px;
+}
+.table-container td{
+	vertical-align: top;
+	padding: 15px;
+}
+.skill .content{
+	background-color:#996666;
+	color: black;
+	padding: 10px;
+	border-radius: 5px;
+	
+}
+.skill ul{
+	margin:0;
+	list-style: none;
+}
+.skill li{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: solid 1px #000000;
+}
+.skill .level{
+	background-color: #000000;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	margin-top: 15px;
+}
+.table{
+	margin-top: 15px;
+	border-collapse: collapse;
+	width: 100%;
+}
+.table th{
+	background-color: #996666;
+	padding: 10px 15px;
+	
+}
+.table td{
+	padding: 10px 15px;
+}
+.table tr:nth-child(even){
+	background-color: white;
+}
+.table tr:nth-child(add){
+	background-color: gray;
+}
+.project .content{
+	width: 25%;
+	float: left;
+	text-align: center;
+	padding: 15px;
+	box-sizing: border-box;
+}
+.project .img{
+	width: 100%
+}
+footer{
+	background-color: white;
+	padding: 15px 0px;
+}
+input[type="text"],textarea{
+	outline: none;
+	padding: 10px 20px;
+	background-color:#E3D6D6;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	border: solid 1px #E3D6D6;
+	border-radius: 5px;
+	transition: all 0.5s;
+}
+input[type="text"]:focus,textarea:focus{
+	background-color: white;
+	border: solid 3px #59a6a6;
+	transition: all 0.5s;
+	
+}
+.form-group{
+	margin-bottom: 15px;
+}
+button{
+	padding: 10px 20px;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+button[type="submit"]{
+	background-color: #59a6a6;
+	border-bottom: solid 2px #408A46;
+}
+button[type="reset"]{
+	background-color: #EC2828;
+	border-bottom: solid 2px #FF0000
+}
+@keyframes fadeIn{
+	from{
+		opacity:0;
+	}
+	to {
+		opacity: 1;
+	}
+}
